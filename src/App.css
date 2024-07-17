@@ -1,0 +1,15 @@
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.reviews {
+    width: 90vm;
+    max-width: var(--fixed-width);
+    background-color: var(--red);
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow-1);
+    transform: var(--transition);
+    text-align: center;
+}
